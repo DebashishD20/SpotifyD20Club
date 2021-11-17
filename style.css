@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Kings&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@600&family=Kings&display=swap" rel="stylesheet');
+body{
+    background-color: bisque;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Josefin Sans', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type:none ;
+    height: 65px;
+    background-color: black;
+    color: white;
+    
+}
+nav ul li{
+    padding: 0px 12px;
+}
+#comp{
+   margin-left: 25%;
+   /* margin: auto; */
+   font-family: 'Abril Fatface', cursive;
+   font-size: xx-large;
+}
+.brand img{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    padding: 0px 8px;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Prata', serif;
+    letter-spacing: 2px;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px ;
+    /* padding: 34px; */
+    background: url('coverpg.png');
+    /* background: url('https://source.unsplash.com/weekly?music'); */
+}
+#heading{
+    margin-left: 3%;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+/* #gif{
+    margin-top: 10%;
+} */
+.icons{
+    margin-top: 12px;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+   
+    
+}
+.songItemContainer{
+   margin-top: 54px; 
+}
+.songItem{
+height: 50px;
+display: flex;
+background-color: antiquewhite;
+/* width: 80%; */
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 14px;
+margin-left: 23px;
+font-family: 'Prata', serif;
+font-size: large;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 50%;
+} 
+.timestamp{
+    margin: 0 3px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 9.3vw;
+    top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
